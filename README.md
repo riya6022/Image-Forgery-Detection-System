@@ -6,7 +6,6 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -44,36 +43,10 @@ The Image Forgery Detection System is an academic project designed to identify t
    pip install -r requirements.txt
    ```
 
-3. **Download Pre-trained Model**:
-   - Place the pre-trained machine learning model in the `model` directory.
-
-4. **Run the Application**:
-   ```bash
-   python app.py
-   ```
-
 ## Usage
 1. **Upload an Image**: Use the frontend interface to upload the image you want to analyze.
 2. **Analyze**: Click the "Analyze" button to perform Error Level Analysis and check for possible forgeries.
 3. **Results**: View the results indicating whether the image is likely to be forged or authentic, along with the confidence level.
-
-## Project Structure
-```
-image-forgery-detection/
-│
-├── app.py                   # Main application script
-├── requirements.txt         # List of dependencies
-├── README.md                # Project README file
-├── model/                   # Directory for machine learning model
-│   └── model.pkl            # Pre-trained ML model
-├── static/                  # Static files (CSS, JS, images)
-├── templates/               # HTML templates for the frontend
-├── utils/                   # Utility functions and scripts
-│   └── ela.py               # Error Level Analysis script
-│   └── preprocess.py        # Image preprocessing scripts
-│   └── predict.py           # Model prediction script
-└── datasets/                # Directory for datasets (if any)
-```
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
